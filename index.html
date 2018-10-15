@@ -4,7 +4,10 @@
     </head>
     <body>
         <form action="http://192.168.31.105/uploadimage.php" method="post" enctype="multipart/form-data">
-            <input type="file" name="fileToUpload" />
+            <input <!->-->
+type="file" name="fileToUpload[]" />
+            <input <!->-->
+type="file" name="fileToUpload[]" />
             <input type ="hidden" name="partyGroupId" id="partyGroupId" value="10050"/>
             <input type="submit" name="submit" value="Click to Upload"/>
         </form>
